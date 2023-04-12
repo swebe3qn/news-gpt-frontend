@@ -1,0 +1,102 @@
+@font-face
+  font-family: 'Proxima Nova Alt Bold'
+  src: url('./fonts/proxima-nova-alt-bold.otf') format('opentype')
+
+@font-face
+  font-family: 'Proxima Nova Alt Light'
+  src: url('./fonts/proxima-nova-alt-light.otf') format('opentype')
+
+@font-face
+  font-family: 'Proxima Nova Alt Regular'
+  src: url('./fonts/proxima-nova-alt-regular.otf') format('opentype')
+
+@font-face
+  font-family: 'Proxima Nova Alt Thin'
+  src: url('./fonts/proxima-nova-alt-thin.otf') format('opentype')
+
+@font-face
+  font-family: 'Proxima Nova Semibold'
+  src: url('./fonts/proxima-nova-semibold.otf') format('opentype')
+
+*
+  box-sizing: border-box
+
+html
+  padding: 0
+  margin: 0
+
+body
+  padding: 0
+  margin: 0
+  padding: 50px
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif
+  color: #fff
+  background: #222
+  line-height: 1.5
+  font-family: 'Proxima Nova Alt Regular', Arial, Helvetica, sans-serif
+
+h1, h2, h3, h4
+  font-family: 'Proxima Nova Alt Bold'
+  line-height: 1.2
+  margin: 0
+
+a
+  color: #00B7FF
+
+.App-logo
+  width: 60%
+  max-width: 300px
+  margin-bottom: 3rem
+
+.container
+  max-width: 600px
+  margin: 0 auto
+
+footer
+  margin-top: 5rem
+
+.article
+  margin-bottom: 4rem
+
+  &:last-of-type
+    margin-bottom: 0
+
+.article-header
+  font-size: 80%
+  opacity: .8
+
+.article-content
+  margin: 0 0 1rem 0
+
+.article
+  h2, p
+    margin: 0
+
+  h2
+    margin-bottom: 0rem
+
+.filter
+  font-size: 80%
+  padding: .25rem .5rem
+  border: 1px solid #fff
+  border-radius: 99px
+  display: inline-block
+  line-height: 1
+  margin-right: .5rem
+  margin-bottom: .5rem
+  cursor: pointer
+
+  &.active
+    background: #fff
+    color: #222
+
+.loader
+  position: fixed
+  bottom: 1rem
+  z-index: 99
+  left: 50%
+  transform: translateX(-50%)
+  padding: .8rem 1.5rem
+  border-radius: 99px
+  background: #fff
+  color: #222
